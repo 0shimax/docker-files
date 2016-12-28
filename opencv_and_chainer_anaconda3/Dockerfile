@@ -169,7 +169,6 @@ RUN conda install -y -c https://conda.anaconda.org/menpo opencv3
 # # avoid error of libdc1394
 # RUN ln /dev/null /dev/raw1394
 
-
 ##############################################################################
 # settings
 ##############################################################################

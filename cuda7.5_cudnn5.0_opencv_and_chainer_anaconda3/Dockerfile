@@ -184,5 +184,6 @@ RUN conda install -y -c https://conda.anaconda.org/menpo opencv3
 # RUN mkdir /notebook
 # VOLUME ["/notebook"]
 
+
 # ENTRYPOINT jupyter notebook --no-browser --ip="0.0.0.0" --port=8888 --notebook-dir="/notebook"
 # WORKDIR /notebook
